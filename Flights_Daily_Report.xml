@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Rehlat.com suite "  parallel="tests"> 
+   
+  	<test name="Regression Test">
+   <parameter name="url" value="http://callcenter.rehlat.com/"></parameter> 
+  	
+		<classes>
+      		
+
+      <class name="test.Flights_Daily_Report" />   
+ <!--  <class name="testCases.AllDomains" />    -->
+       			 
+		</classes>
+  	</test> <!-- Test -->                                              
+  	
+  
+</suite> <!-- Suite -->

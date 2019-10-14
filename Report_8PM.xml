@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DiffrentReports 8:30PM"  parallel="tests"> 
+   
+  	<test name="Regression Test">
+  
+  	
+		<classes>
+      		
+
+      <class name="DiffrentReports.Report_8PM_Dif" />   
+       <class name="newFormateReports.New_Report_8PM" />
+
+       			 
+		</classes>
+  	</test> <!-- Test -->                                              
+  	
+  
+</suite> <!-- Suite --> 

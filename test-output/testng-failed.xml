@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DiffrentReports 12:30PM]" parallel="tests">
+  <test name="Regression Test(failed)" parallel="tests">
+    <classes>
+      <class name="newFormateReports.New_Report_12PM">
+        <methods>
+          <include name="Repricing_12PM"/>
+        </methods>
+      </class> <!-- newFormateReports.New_Report_12PM -->
+      <class name="DiffrentReports.Report_12PM_Dif">
+        <methods>
+          <include name="different_Report_12PM"/>
+        </methods>
+      </class> <!-- DiffrentReports.Report_12PM_Dif -->
+    </classes>
+  </test> <!-- Regression Test(failed) -->
+</suite> <!-- Failed suite [DiffrentReports 12:30PM] -->
